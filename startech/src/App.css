@@ -1,0 +1,41 @@
+.app-container {
+  height: 100%;
+  display: grid;  
+  grid-template-areas: 
+  "corpo";
+}
+
+.fundo-principal {
+  height: 100%;
+  grid-area: corpo;
+
+  background: linear-gradient(var(--roxo-01), var(--azul-01));
+  background-image: url('./img/fundo.jpg');
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.titulo-principal {
+  display: block;
+  width: max-content;
+  padding: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+.titulo-principal h1 {
+  color: white;
+  font-size: 6em;
+  margin: 5px;
+  
+}
+
+.titulo-principal h2 {
+  color: var(--cinza-02);
+  font-size: 3em;
+  margin: 0;
+}
